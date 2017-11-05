@@ -6,4 +6,15 @@
 <prescription type="service" class="com.google.firebase.iid.FirebaseInstanceIdService" sender="any" />
 <prescription type="service" class="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService" sender="any" />
 <prescription type="service" class="com.google.firebase.crash.internal.service.FirebaseCrashSenderService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.AnalyticsJobService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.AnalyticsService" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.measurement.AppMeasurementReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.firebase.iid.FirebaseInstanceIdReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.analytics.AnalyticsReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.analytics.CampaignTrackingReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gcm.GCMBroadcastReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.gcm.GcmReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.libraries.social.notifications.impl.gcm.receiver.GcmReceiver" sender="any" />
 </prescriptions>
